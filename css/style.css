@@ -6,6 +6,7 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden !important;
 }
 
 .active {
@@ -100,6 +101,7 @@ a.text-secondary:hover {
     background: -webkit-linear-gradient(120deg, rgba(220, 15, 237, 1) 0%, rgba(0, 212, 255, 1) 100%);
     border-radius: 5px;
     font-size: 10px;
+    text-transform: uppercase;
 }
 
 .project-description {
@@ -111,7 +113,18 @@ a.text-secondary:hover {
     transition: all .7s ease-in;
 }
 
+.form-container {
+    border-top: 1px solid rgba(51, 51, 51, 0.37);
+    padding: 50px 0 0 0;
+}
+
+
 @media (min-width: 768px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+        overflow-x: hidden !important;
+    }
+
     section {
         min-height: 80vh;
 
@@ -119,6 +132,12 @@ a.text-secondary:hover {
 
     .display-2 {
         font-size: 10em;
+    }
+
+    .form-container {
+        border-top: none;
+        border-left: 1px solid rgba(51, 51, 51, 0.37);
+        padding: 50px 0 0 0;
     }
 
 }
