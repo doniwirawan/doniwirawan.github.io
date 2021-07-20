@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.active {
+    background: -webkit-linear-gradient(120deg, rgba(218, 15, 237, 0.836) 0%, rgba(0, 213, 255, 0.829) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.active:hover {
+    font-weight: 600;
+    background: -webkit-linear-gradient(120deg, rgba(220, 15, 237, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-text {
+    background: -webkit-linear-gradient(120deg, rgba(220, 15, 237, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.gradient-hover:hover a {
+    font-weight: 600;
+    background: -webkit-linear-gradient(120deg, rgba(220, 15, 237, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.btn-gradient {
+    background: -webkit-linear-gradient(120deg, rgba(218, 15, 237, 0.733) 0%, rgba(0, 213, 255, 0.705) 100%);
+    color: #fff;
+}
+
+.btn-gradient:hover {
+    background: -webkit-linear-gradient(120deg, rgba(220, 15, 237, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    color: #fff;
+}
+
+
+.social-media .fab {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all .7s ease-in;
+}
+
+.social-media .fab:hover {
+
+    background: -webkit-linear-gradient(120deg, rgba(220, 15, 237, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section {
+    min-height: 90vh;
+
+}
+
+.letter-spacing-md {
+    letter-spacing: 5px;
+}
+
+.letter-spacing-sm {
+    letter-spacing: 2px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all .7s ease-in;
+}
+
+a.text-secondary:hover {
+
+    border: none;
+    outline: none;
+    background: -webkit-linear-gradient(120deg, rgba(220, 15, 237, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn:hover {
+    background: -webkit-linear-gradient(120deg, rgba(220, 15, 237, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    border: none;
+    outline: none;
+}
+
+.tag {
+    padding: 2px;
+    color: #fff;
+    background: -webkit-linear-gradient(120deg, rgba(220, 15, 237, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.project-description {
+    font-size: 14px;
+}
+
+.box-shadow {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all .7s ease-in;
+}
+
+@media (min-width: 768px) {
+    section {
+        min-height: 80vh;
+
+    }
+
+    .display-2 {
+        font-size: 10em;
+    }
+
+}
