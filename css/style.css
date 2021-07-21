@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -125,10 +126,23 @@ input {
 
 .display-2 {
     font-size: 4.2em;
+    font-family: 'DM Serif Display', serif;
 }
 
 .display-3 {
     font-size: 2.8em;
+    font-family: 'DM Serif Display',
+        serif;
+
+}
+
+.navbar-brand {
+    font-family: 'DM Serif Display',
+        serif;
+}
+
+nav {
+    border-bottom: 2px #3333 dashed;
 }
 
 @media (min-width: 768px) {
@@ -139,7 +153,6 @@ input {
 
     section {
         min-height: 80vh;
-
     }
 
     .display-2 {
