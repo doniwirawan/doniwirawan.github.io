@@ -156,8 +156,13 @@ a:active {
 
 }
 
+a {
+    text-decoration: none;
+}
+
 a:hover {
     border-bottom: 2px #3333 dashed;
+    text-decoration: none;
 }
 
 @media (min-width: 768px) {

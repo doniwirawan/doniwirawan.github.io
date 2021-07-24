@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- favicon -->
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <!-- dark mode css -->
+    <link rel="stylesheet" href="css/dark-mode.css">
 
     <!-- custom style -->
     <link rel="stylesheet" href="css/style.css">
@@ -28,7 +30,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg ">
             <div class="container">
                 <a class="navbar-brand gradient-text font-weight-bold" href="#">Doni Wirawan</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -54,10 +56,14 @@
                         <li class="nav-item gradient-hover">
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
+                        <div class="custom-control custom-switch mt-2 ">
+                            <input type="checkbox" class="custom-control-input box-shadow" id="darkSwitch" />
+                            <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+                        </div>
                 </div>
             </div>
         </nav>
-        <section class="jumbotron d-flex align-items-center mb-0">
+        <section class=" d-flex align-items-center mb-0">
             <div class="container ">
                 <h1
                     class="gradient-text display-2 font-weight-bold animate__animated animate__bounce animate__delay-1s ">
@@ -88,13 +94,12 @@
         </section>
     </header>
     <main>
-        <section class="bg-light py-5" id="about">
+        <section class=" py-5" id="about">
             <div class="container">
                 <h2 class="display-3 font-weight-bold text-center gradient-text">About Me...</h2>
                 <div class="row pt-5">
                     <div class="col-lg-6 col-md-12">
-                        <img src="./img/doni new profile.jpg" alt=""
-                            class="rounded img-fluid box-shadow">
+                        <img src="./img/doni new profile.jpg" alt="" class="rounded img-fluid box-shadow">
                     </div>
                     <div class="col-lg-6  col-md-12 p-lg-2">
                         <h2 class="font-weight-bold letter-spacing-md text-secondary mt-4 mt-md-0 serif">Doni Wirawan
@@ -174,7 +179,7 @@
             </div>
 
         </section>
-        <section class=" py-5" id="certificate">
+        <section class="bg-light py-5" id="certificate">
             <div class="container">
                 <h2 class="display-3 font-weight-bold text-center gradient-text">Certificate</h2>
                 <p class="text-center text-secondary">
@@ -194,7 +199,7 @@
             </div>
         </section>
 
-        <section class="bg-light py-5" id="contact">
+        <section class=" py-5" id="contact">
             <div class="container">
                 <h2 class="display-3 font-weight-bold text-center gradient-text">Contact Me</h2>
 
@@ -277,7 +282,7 @@
         </section>
 
     </main>
-    <footer class="">
+    <footer class="bg-light">
         <div class="container ">
             <div class="d-flex justify-content-between align-items-center p-3">
                 <p class="text-secondary h6">Copyright © Doni Wirawan. All rights reserved.</p>
@@ -307,6 +312,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
     </script>
+    <!-- darkmode js -->
+    <script src="./js/dark-mode-switch.min.js"></script>
     <script src="./js/script.js"></script>
 
 </body>
