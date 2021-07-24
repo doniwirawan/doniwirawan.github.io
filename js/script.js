@@ -27,7 +27,7 @@ getData('project').then(res => {
         element.innerHTML = `
             <div class="row">
                             <div class="col">
-                                <img src="${data.img}" alt="${data.nama}" class="img-fluid rounded">
+                                <img src="${data.img}" alt="${data.nama}" class="img-fluid rounded box-shadow">
                             </div>
                             <div class="col pl-2">
                                 <h2 class="h4 gradient-text font-weight-medium">${data.nama}</h2>   
