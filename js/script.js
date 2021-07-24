@@ -20,6 +20,7 @@ async function getData(data) {
 
 getData('project').then(res => {
     res.forEach(data => {
+        // const tags = data.tags.map(tag => console.log(tag[0]))
 
         const element = document.createElement('div');
         element.classList.add('col-lg-4', 'col-md-12', 'p-3', 'border-top', 'border-bottom');
@@ -29,15 +30,16 @@ getData('project').then(res => {
                                 <img src="${data.img}" alt="${data.nama}" class="img-fluid rounded">
                             </div>
                             <div class="col pl-2">
-                                <h2 class="h4 gradient-text font-weight-medium">${data.nama}</h2>
+                                <h2 class="h4 gradient-text font-weight-medium">${data.nama}</h2>   
+                                <small class="tag">${data.tags[0]}</small>
+                                <small class="tag">${data.tags[1]}</small>
+                                <small class="tag">${data.tags[2]}</small>
+                                           
 
-                                <small class="tag">HTML</small>
-                                <small class="tag">CSS</small>
-                                <small class="tag">JS</small>
 
 
-                            </div>
-                        </div>
+                            </div >
+                        </div >
                         <p class="text-secondary mt-1 project-description">${data.desc}</p>
                         <div class="row ml-3">
                             <div class="row ">
@@ -51,7 +53,7 @@ getData('project').then(res => {
 
 
                         </div>
-        `
+            `
         projectContainer.appendChild(element);
 
 
@@ -63,12 +65,14 @@ getData('certificate').then(res => {
         const element2 = document.createElement('div');
         element2.classList.add('col-lg-4', 'col-md-12', 'p-3');
         element2.innerHTML = `
-                        <h2 class="text-center text-secondary h4">${data.ket}.</h2>
-                        <img src="${data.img}" alt="${data.ket}"
-                            class="img-fluid rounded  box-shadow">
-                        <small class="tag">Web Development</small>
-                        <small class="tag">UI UX</small>
-        `
+    <h2 class= "text-center text-secondary h4" > ${data.ket}.</h2>
+<img src="${data.img}" alt="${data.ket}"
+    class="img-fluid rounded  box-shadow">
+        <small class="tag">${data.tags[0]}</small>
+        <small class="tag">${data.tags[1]}</small>
+        <small class="tag">${data.tags[2]}</small>
+
+    `
         certificateContainer.appendChild(element2)
 
     })
