@@ -1,0 +1,212 @@
+{
+    "projects": [{
+            "nama": "Expense Tracker",
+            "img": "../img/expense.gif",
+            "link": ["https://github.com/doniwirawan/expense-tracker", "https://doni-expense-tracker.netlify.com/"],
+            "desc": "App ini berbasis PWA, digunakan untuk mentracking pemasukan dan pengeluaran, data dari app tersebut disimpan menggunakan local storage.",
+            "tags":[
+                "html",
+                "css",
+                "js"
+            ]
+        },
+        {
+            "nama": "Hangman Game",
+            "img": "../img/hangman.gif",
+            "link": ["https://github.com/doniwirawan/hangman-game", "https://doni-hangman-game.netlify.com/"],
+            "desc": "Hangman Game adalah sebuah permainan menebak kata random, jika benar maka anda akan menang dan sebaliknya.(Menggunakan Array Method dan String Method)",
+            "tags":[
+                "html",
+                "css",
+                "js"
+            ]
+        },
+        {
+            "nama": "New Year Countdown",
+            "img": "../img/year.gif",
+            "link": ["https://github.com/doniwirawan/newYearCountdown", "https://doni-newyearcountdown.netlify.app/"],
+            "desc": "Project untuk menghitung seberapa lama tahun baru yang akan datang dalam hitungan hari hingga detik.",
+            "tags":[
+                "html",
+                "css",
+                "js"
+            ]
+        },
+        {
+            "nama": "Shoes Store Landing Page",
+            "img": "../img/shoes2.gif",
+            "link": ["https://github.com/doniwirawan/tokosepatu", "https://doni-toko-sepatu.netlify.app/"],
+            "desc": "App Landing page toko sepatu menggunakan bootstrap.",
+            "tags":[
+                "html",
+                "css",
+                "js"
+            ]
+        },
+        {
+            "nama": "Coktail Finder",
+            "img": "../img/cocktail.gif",
+            "link": ["https://github.com/doniwirawan/cocktail-finder", "https://doni-cocktail-finder.netlify.com/"],
+            "desc": "App ini mengambil data dari REST api CocktailDB, untuk fetching data menggunakan AJAX(fetch).",
+            "tags":[
+                "html",
+                "css",
+                "js"
+            ]
+        },
+        {
+            "nama": "Meal Finder",
+            "img": "../img/meal.gif",
+            "link": ["https://github.com/doniwirawan/MealFinder", "https://doni-meal-finder.netlify.com/"],
+            "desc": "App ini mengambil data dari REST api MealDB, untuk fetching data menggunakan AJAX(fetch).",
+            "tags":[
+                "html",
+                "css",
+                "js"
+            ]
+        },
+        {
+            "nama": "Breath App",
+            "img": "../img/breath.gif",
+            "link": ["https://github.com/doniwirawan/relaxer-app", "https://doni-relaxer-app.netlify.app/"],
+            "desc": "Website untuk melatih pernafasan menggunakan settimeOut dari Javascript",
+            "tags":[
+                "html",
+                "css",
+                "js"
+            ]
+        },
+        {
+            "nama": "Calculator",
+            "img": "../img/calculator.gif",
+            "link": ["https://github.com/doniwirawan/basic-web-calculator", "https://doni-calculator.netlify.com/"],
+            "desc": "Website kalkulator menggunakan Javascript",
+            "tags":[
+                "html",
+                "css",
+                "js"
+            ]
+        },
+        {
+            "nama": "Music Player",
+            "img": "../img/musicplayer.gif",
+            "link": ["https://github.com/doniwirawan/JS-Simple-Music-Player", "https://doni-js-music.netlify.app/"],
+            "desc": "Website untuk mendengar music menggunakan Javascript",
+            "tags":[
+                "html",
+                "css",
+                "js"
+            ]
+        },
+        {
+            "nama": "NASA Astronomy Picture of the Day",
+            "img": "../img/nasa.gif",
+            "link": ["https://github.com/doniwirawan/NASA-API-Practice", "https://doni-nasa-api.netlify.app/"],
+            "desc": "Website untuk melihat foto-foto Astronomy dari NASA menggunakan NASA REST Api dan juga menggunakan Local Storage untuk menyimpan favorit dari user",
+            "tags":[
+                "html",
+                "css",
+                "js"
+            ]
+        },
+        {
+            "nama": "Custom Countdown",
+            "img": "../img/custom_countdown.gif",
+            "link": ["https://github.com/doniwirawan/custom_countdown", "https://doni-custom-countdown.netlify.app/"],
+            "desc": "Website untuk membuat countdown (pemundur waktu)",
+            "tags":[
+                "html",
+                "css",
+                "js"
+            ]
+        },
+        {
+            "nama": "Bali Tours",
+            "img": "../img/bali-tours.gif",
+            "link": ["https://github.com/doniwirawan/natours-bali-tours-version", "https://doni-bali-tours.netlify.com/"],
+            "desc": "Bali Tours Website dominan menggunakan CSS bahkan untuk Navbar sekalipun, selain itu ada fitur Dark Mode dan Light Mode",
+            "tags":[
+                "html",
+                "css",
+                "js"
+            ]
+        }],
+        "certificates": [
+        {
+            "img": "../img/sertifikat%20kegiatan%20dan%20lomba%20-%20Halaman%202.jpg",
+            "ket": "Peserta Web Design 'ITCC' di Universitas UDAYANA ",
+            "tags":[
+                "html",
+                "css",
+                "js"
+            ]
+        },
+        {
+            "img": "../img/sertifikat%20kegiatan%20dan%20lomba%20-%20Halaman%201.jpg",
+            "ket": "Peserta Web Design 'PARAS ICT V' di STIKI INDONESIA",
+            "tags":[
+                "html",
+                "css",
+                "js"
+            ]
+        },
+        {
+            "img": "../img/sertifikasi%20kerja%20-%20Halaman%205.jpg",
+            "ket": "Tanda ikut serta DIKLAT JUNIOR WEB DEVELOPER di BDI Denpasar",
+            "tags":[
+                "html",
+                "css",
+                "js"
+            ]
+        },
+        
+        
+        {
+            "img": "../img/sertifikat.PNG",
+            "ket": "belajar fundamental front end web development dari dicoding.com",
+            "tags":[
+                "html",
+                "css",
+                "js"
+            ]
+        },
+        {
+            "img": "../img/sertifikat2.PNG",
+            "ket": "belajar dasar pemrograman web dari dicoding.com",
+            "tags":[
+                "html",
+                "css",
+                "js"
+            ]
+        },
+        {
+            "img": "../img/sertifikat3.PNG",
+            "ket": "Memulai pemrograman dengan python dari dicoding.com",
+            "tags":[
+                "html",
+                "css",
+                "js"
+            ]
+        },
+        {
+            "img": "../img/sertifikasi%20kerja%20-%20Halaman%202.jpg",
+            "ket": "Sertifikat PKL dari Tayatha.com",
+            "tags":[
+                "html",
+                "css",
+                "js"
+            ]
+        },
+        {
+            "img": "../img/sertifikasi%20kerja%20-%20Halaman%204.jpg",
+            "ket": "Tanda ikut serta pelatihan UI/UX Design di BDI Denpasar",
+            "tags":[
+                "js",
+                "js",
+                "js"
+            ]
+        }
+
+    ]
+
+}
