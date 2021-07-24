@@ -68,9 +68,6 @@ getData('certificate').then(res => {
     <h2 class= "text-center text-secondary h4" > ${data.ket}.</h2>
 <img src="${data.img}" alt="${data.ket}"
     class="img-fluid rounded  box-shadow">
-        <small class="tag">${data.tags[0]}</small>
-        <small class="tag">${data.tags[1]}</small>
-        <small class="tag">${data.tags[2]}</small>
 
     `
         certificateContainer.appendChild(element2)
