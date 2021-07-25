@@ -20,8 +20,6 @@ async function getData(data) {
 
 getData('project').then(res => {
     res.forEach(data => {
-        // const tags = data.tags.map(tag => console.log(tag[0]))
-
         const element = document.createElement('div');
         element.classList.add('col-lg-4', 'col-md-12', 'p-3', 'border-top', 'border-bottom');
         element.innerHTML = `
@@ -34,10 +32,6 @@ getData('project').then(res => {
                                 <small class="tag">${data.tags[0]}</small>
                                 <small class="tag">${data.tags[1]}</small>
                                 <small class="tag">${data.tags[2]}</small>
-                                           
-
-
-
                             </div >
                         </div >
                         <p class="text-secondary mt-1 project-description">${data.desc}</p>
