@@ -3,7 +3,7 @@
             "nama": "Expense Tracker",
             "img": "../img/expense.gif",
             "link": ["https://github.com/doniwirawan/expense-tracker", "https://doni-expense-tracker.netlify.com/"],
-            "desc": "App ini berbasis PWA, digunakan untuk mentracking pemasukan dan pengeluaran, data dari app tersebut disimpan menggunakan local storage.",
+            "desc": "This app is PWA-based, used to track income and expenses, data from the app is stored using local storage.",
             "tags":[
                 "html",
                 "css",
@@ -14,7 +14,7 @@
             "nama": "Hangman Game",
             "img": "../img/hangman.gif",
             "link": ["https://github.com/doniwirawan/hangman-game", "https://doni-hangman-game.netlify.com/"],
-            "desc": "Hangman Game adalah sebuah permainan menebak kata random, jika benar maka anda akan menang dan sebaliknya.(Menggunakan Array Method dan String Method)",
+            "desc": "Hangman Game is a random word guessing game, if it is correct then you will win and vice versa. (Using Array Method and String Method).",
             "tags":[
                 "html",
                 "css",
@@ -25,7 +25,7 @@
             "nama": "New Year Countdown",
             "img": "../img/year.gif",
             "link": ["https://github.com/doniwirawan/newYearCountdown", "https://doni-newyearcountdown.netlify.app/"],
-            "desc": "Project untuk menghitung seberapa lama tahun baru yang akan datang dalam hitungan hari hingga detik.",
+            "desc": "Project to calculate how long the coming new year will be in days to seconds.",
             "tags":[
                 "html",
                 "css",
@@ -36,7 +36,7 @@
             "nama": "Shoes Store Landing Page",
             "img": "../img/shoes2.gif",
             "link": ["https://github.com/doniwirawan/tokosepatu", "https://doni-toko-sepatu.netlify.app/"],
-            "desc": "App Landing page toko sepatu menggunakan bootstrap.",
+            "desc": "Shoes store landing page build using bootstrap.",
             "tags":[
                 "html",
                 "css",
@@ -47,7 +47,7 @@
             "nama": "Coktail Finder",
             "img": "../img/cocktail.gif",
             "link": ["https://github.com/doniwirawan/cocktail-finder", "https://doni-cocktail-finder.netlify.com/"],
-            "desc": "App ini mengambil data dari REST api CocktailDB, untuk fetching data menggunakan AJAX(fetch).",
+            "desc": "This app fetches data from CocktailDB REST api, to fetch data using AJAX(fetch).",
             "tags":[
                 "html",
                 "css",
@@ -58,7 +58,7 @@
             "nama": "Meal Finder",
             "img": "../img/meal.gif",
             "link": ["https://github.com/doniwirawan/MealFinder", "https://doni-meal-finder.netlify.com/"],
-            "desc": "App ini mengambil data dari REST api MealDB, untuk fetching data menggunakan AJAX(fetch).",
+            "desc": "This app fetch data from REST api MealDB, to fetch data using AJAX(fetch).",
             "tags":[
                 "html",
                 "css",
@@ -69,7 +69,7 @@
             "nama": "Breath App",
             "img": "../img/breath.gif",
             "link": ["https://github.com/doniwirawan/relaxer-app", "https://doni-relaxer-app.netlify.app/"],
-            "desc": "Website untuk melatih pernafasan menggunakan settimeOut dari Javascript",
+            "desc": "Website to practice breathing using setTimeOut from Javascript.",
             "tags":[
                 "html",
                 "css",
@@ -80,7 +80,7 @@
             "nama": "Calculator",
             "img": "../img/calculator.gif",
             "link": ["https://github.com/doniwirawan/basic-web-calculator", "https://doni-calculator.netlify.com/"],
-            "desc": "Website kalkulator menggunakan Javascript",
+            "desc": "Web Based calculator build using javascript.",
             "tags":[
                 "html",
                 "css",
@@ -91,7 +91,7 @@
             "nama": "Music Player",
             "img": "../img/musicplayer.gif",
             "link": ["https://github.com/doniwirawan/JS-Simple-Music-Player", "https://doni-js-music.netlify.app/"],
-            "desc": "Website untuk mendengar music menggunakan Javascript",
+            "desc": "Web based music player app build using javascript",
             "tags":[
                 "html",
                 "css",
@@ -102,7 +102,7 @@
             "nama": "NASA Astronomy Picture of the Day",
             "img": "../img/nasa.gif",
             "link": ["https://github.com/doniwirawan/NASA-API-Practice", "https://doni-nasa-api.netlify.app/"],
-            "desc": "Website untuk melihat foto-foto Astronomy dari NASA menggunakan NASA REST Api dan juga menggunakan Local Storage untuk menyimpan favorit dari user",
+            "desc": "Websites to view Astronomy photos from NASA use NASA REST API and also use Local Storage to store user's favorites.",
             "tags":[
                 "html",
                 "css",
@@ -113,7 +113,7 @@
             "nama": "Custom Countdown",
             "img": "../img/custom_countdown.gif",
             "link": ["https://github.com/doniwirawan/custom_countdown", "https://doni-custom-countdown.netlify.app/"],
-            "desc": "Website untuk membuat countdown (pemundur waktu)",
+            "desc": "Custom countdown website",
             "tags":[
                 "html",
                 "css",
@@ -124,7 +124,7 @@
             "nama": "Bali Tours",
             "img": "../img/bali-tours.gif",
             "link": ["https://github.com/doniwirawan/natours-bali-tours-version", "https://doni-bali-tours.netlify.com/"],
-            "desc": "Bali Tours Website dominan menggunakan CSS bahkan untuk Navbar sekalipun, selain itu ada fitur Dark Mode dan Light Mode",
+            "desc": "bali tours website build with HTML, CSS, JS",
             "tags":[
                 "html",
                 "css",
@@ -134,7 +134,7 @@
         "certificates": [
         {
             "img": "../img/sertifikat%20kegiatan%20dan%20lomba%20-%20Halaman%202.jpg",
-            "ket": "Peserta Web Design 'ITCC' di Universitas UDAYANA ",
+            "ket": "Participant of 'ITCC' Web Design competition at UDAYANA University",
             "tags":[
                 "html",
                 "css",
@@ -143,7 +143,7 @@
         },
         {
             "img": "../img/sertifikat%20kegiatan%20dan%20lomba%20-%20Halaman%201.jpg",
-            "ket": "Peserta Web Design 'PARAS ICT V' di STIKI INDONESIA",
+            "ket": "Participant of 'PARAS ICT V' Web Design competition at STIKI",
             "tags":[
                 "html",
                 "css",
@@ -152,7 +152,7 @@
         },
         {
             "img": "../img/sertifikasi%20kerja%20-%20Halaman%205.jpg",
-            "ket": "Tanda ikut serta DIKLAT JUNIOR WEB DEVELOPER di BDI Denpasar",
+            "ket": "Certificate Signs of participating in JUNIOR WEB DEVELOPER TRAINING at BDI Denpasar",
             "tags":[
                 "html",
                 "css",
@@ -163,7 +163,7 @@
         
         {
             "img": "../img/sertifikat.PNG",
-            "ket": "belajar fundamental front end web development dari dicoding.com",
+            "ket": "learn fundamentals of front end web development from dicoding.com",
             "tags":[
                 "html",
                 "css",
@@ -172,7 +172,7 @@
         },
         {
             "img": "../img/sertifikat2.PNG",
-            "ket": "belajar dasar pemrograman web dari dicoding.com",
+            "ket": "learn basic web programming from dicoding.com",
             "tags":[
                 "html",
                 "css",
@@ -181,7 +181,7 @@
         },
         {
             "img": "../img/sertifikat3.PNG",
-            "ket": "Memulai pemrograman dengan python dari dicoding.com",
+            "ket": "learn basic python from dicoding.com",
             "tags":[
                 "html",
                 "css",
@@ -190,7 +190,7 @@
         },
         {
             "img": "../img/sertifikasi%20kerja%20-%20Halaman%202.jpg",
-            "ket": "Sertifikat PKL dari Tayatha.com",
+            "ket": "Internship certificate from Tayatha.com",
             "tags":[
                 "html",
                 "css",
@@ -199,7 +199,7 @@
         },
         {
             "img": "../img/sertifikasi%20kerja%20-%20Halaman%204.jpg",
-            "ket": "Tanda ikut serta pelatihan UI/UX Design di BDI Denpasar",
+            "ket": "Certificate of participation in UI/UX Design training at BDI Denpasar",
             "tags":[
                 "js",
                 "js",
