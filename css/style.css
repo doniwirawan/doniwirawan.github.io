@@ -171,9 +171,11 @@ a:hover {
 
 .bg-banner {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     opacity: 0.1;
 }
+
 
 @media (min-width: 768px) {
     body {
@@ -193,6 +195,12 @@ a:hover {
         border-top: none;
         border-left: 1px dashed rgba(51, 51, 51, 0.192);
         padding: 50px 0 0 0;
+    }
+
+    .bg-banner {
+        width: 100%;
+        height: auto;
+        opacity: 0.1;
     }
 
 
