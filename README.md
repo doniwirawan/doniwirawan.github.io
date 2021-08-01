@@ -1,5 +1,7 @@
 # Gradient-Landing-Page by Doni Wirawan
 
+Gradient landing page for gradient enthusiast
+
 
 [DEMO](https://doni-gradient-landing.netlify.app/)
 
