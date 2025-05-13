@@ -248,23 +248,33 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-12 p-lg-5 p-md-0  form-container">
-                            <form class="form col-12 p-md-0" netlify>
+                            <form class="form col-12 p-md-0" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                                <input type="hidden" name="form-name" value="contact" />
+                                <p class="hidden">
+                                    <label>Jangan isi ini jika Anda manusia: <input name="bot-field" /></label>
+                                </p>
                                 <div class="row mx-1 ">
                                     <label for="name" class="text-secondary font-weight-bold mt-2">What is your
                                         name?</label><br>
-                                    <input type="text" class="form-control col-12" placeholder="Your Name Here"
-                                        id="name">
+                                    <input type="text" name="name" class="form-control col-12" placeholder="Your Name Here"
+                                        id="name" required>
+                                </div>
+                                <div class="row mx-1 ">
+                                    <label for="email" class="text-secondary font-weight-bold mt-2">What is your
+                                        email?</label><br>
+                                    <input type="email" name="email" class="form-control col-12" placeholder="Your Email Here"
+                                        id="email" required>
                                 </div>
                                 <div class="row mx-1 ">
                                     <label for="subject" class="text-secondary font-weight-bold mt-2">What you wanna
                                         talk about?</label><br>
-                                    <input type="text" class="form-control col-12" placeholder="I want to talk about..."
-                                        id="subject">
+                                    <input type="text" name="subject" class="form-control col-12" placeholder="I want to talk about..."
+                                        id="subject" required>
                                 </div>
                                 <div class="row mx-1 ">
                                     <label for="message" class="text-secondary font-weight-bold mt-2">What you want me
                                         to know more?</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <textarea name="message" class="form-control" id="message" rows="3" required></textarea>
                                     <button type="submit" class="btn btn-gradient mt-4">Submit</button>
                                 </div>
                             </form>
